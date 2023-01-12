@@ -117,7 +117,7 @@ function deleteRemoteBranch(branch) {
         return;
     }
 
-    const allRemotes = getAllRemotes(/(master|release|HEAD|develop)/);
+    const allRemotes = getAllRemotes(/(master|release|HEAD|develop|prod|hack|hackathon|hackday|hack-day|)/);
     const maxDiff = argv.olderThan * 24 * 60 * 60;
     const oldBranches = filterByDate(allRemotes, maxDiff);
 
