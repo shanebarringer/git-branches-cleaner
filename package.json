@@ -1,5 +1,5 @@
 {
-  "name": "git-branches-cleaner",
+  "name": "git-branches-cleaner-duex",
   "version": "3.0.0",
   "description": "tools for deleting old git branches",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AGrigorii/git-branches-cleaner.git"
+    "url": "git+https://github.com/shanebarringer/git-branches-cleaner"
   },
   "keywords": [
     "git",
@@ -18,12 +18,8 @@
   ],
   "author": "Akhremenko Grigorii",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AGrigorii/git-branches-cleaner/issues"
-  },
-  "homepage": "https://github.com/AGrigorii/git-branches-cleaner#readme",
   "bin": {
-    "git-branches-cleaner": "./index.js"
+    "git-branches-cleaner-duex": "./index.js"
   },
   "dependencies": {
     "yargs": "17.1.1"
